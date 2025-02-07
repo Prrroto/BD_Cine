@@ -1,5 +1,5 @@
 <?php 
-    $conexion = new mysqli("sql210.infinityfree.com", "if0_38265002", "x6dvCsTXuoY", "if0_38265002_Cine");
+    $conexion = new mysqli("localhost", "4585640_cines", "Chil3,Relleno65", "4585640_cines");
 
     if ($conexion->connect_error) {
         echo "Algo salió mal: " . $conexion->connect_error;
